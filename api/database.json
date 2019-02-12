@@ -98,11 +98,22 @@
     {
       "date": "2019-02-07",
       "conceptsCovered": "Browserify",
-      "textEntry": "Learned how to use Browserify and created a GitHub boilerplate Browserify repository to use for future projects. Have to remember to install the node packages after I clone the repo for a new project. ",
-      "link": "https://github.com/CBailey589/Browserify-Boilerplate",
+      "textEntry": "Learned how to use Browserify and created a GitHub boilerplate Browserify repository to use for future projects. Have to remember to install the node packages after I clone the repo for a new project.",
+      "link": [
+        "https://github.com/CBailey589/Browserify-Boilerplate"
+      ],
       "linkDescription": "Boilerplate Browserify Repository",
       "mood": "Fine",
       "id": 10
+    },
+    {
+      "id": 11,
+      "date": "2019-02-11",
+      "conceptsCovered": "API Delete and Edit",
+      "textEntry": "Learned how to Delete and Edit objects using fetch and promises. Implemented in this Journal. ",
+      "link": "https://github.com/CBailey589/Daily-Journal-With-Browserify",
+      "linkDescription": "GitHub for this Daily Journal",
+      "mood": "Happy"
     }
   ]
 }

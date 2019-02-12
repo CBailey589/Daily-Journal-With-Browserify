@@ -2,6 +2,7 @@ import API from "./APIFunctions.js"
 import clearDisplayedEntriesFromDOM from "./clearDisplayedEntriesFromDOM.js"
 import checkNewEntryForProfanity from "./checkNewEntryForProfanity.js"
 import resetJournalEntryForm from "./resetJournalEntryForm.js"
+import makeNewEntryObject from "./makeNewEntryObject.js";
 
 function addEventListeners() {
     document.querySelector("#submitButton").addEventListener("click", () => {
@@ -11,13 +12,17 @@ function addEventListeners() {
                 resetJournalEntryForm()
             } else {
                 clearDisplayedEntriesFromDOM()
-                API.POST().then(API.GET)
+                API.POST()
+                .then(API.GET)
                 resetJournalEntryForm()
             }
         }
         if (event.target.textContent === "Update Journal Entry") {
-            // need code here
-
+            clearDisplayedEntriesFromDOM()
+            let newEntryObject = makeNewEntryObject()
+            API.EDITPOST(newEntryObject)
+            .then(API.GET)
+            resetJournalEntryForm()
             document.querySelector("#submitButton").textContent = "Record Journal Entry"
         }
     })
