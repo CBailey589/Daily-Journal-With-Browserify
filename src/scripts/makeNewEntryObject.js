@@ -1,6 +1,7 @@
 function makeNewEntryObject() {
     let newEntryObject = {};
 
+    newEntryObject.id = parseInt(document.querySelector("#entryCurrentlyInForm").value)
     newEntryObject.date = document.querySelector("#journalDate").value
     newEntryObject.conceptsCovered = document.querySelector("#conceptsCovered").value
     newEntryObject.textEntry = document.querySelector("#entry").value
