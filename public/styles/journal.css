@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    padding: 0px;
 }
 
 html {
@@ -44,6 +45,7 @@ fieldset {
     font-size: 1.3em;
     color: #16375f;
     width: 70%;
+    /* border: 1px solid #16375f; */
 }
 
 input {
@@ -111,10 +113,12 @@ select {
 
 .pastEntry {
     /* border: 1px dotted green; */
-    border: 1px solid #607c9e;
+    border: 3px solid #607c9e;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px #40546D;
     display: flex;
     flex-direction: column;
-    width: 48%;
+    width: 46%;
     height: auto;
     justify-content: space-between;
     margin-bottom: 40px;
@@ -138,7 +142,7 @@ select {
     font-size: 1.4em;
     margin: 0px 5px 20px 5px;
     height: 50%;
-    overflow-y: scroll
+    overflow-y: scroll;
 }
 
 .entryBottomBar {
@@ -153,6 +157,7 @@ select {
     color:#f0f0f0;
     font-weight: bold;
     font-size: 1.3em;
+    width: 30%
 }
 
 .dateAndMood {
@@ -162,7 +167,7 @@ select {
     font-weight: bold;
     margin: 0px 5px 10px 0px;
     height: 100%;
-    width:33%;
+    width:30%;
     color: #607c9e;
     align-items: flex-end
 }
