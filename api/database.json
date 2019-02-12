@@ -81,7 +81,9 @@
       "date": "2019-02-01",
       "conceptsCovered": "JS Using Object Keys As Function References",
       "textEntry": "Learned how to set up an object with functions as values, and then execute those functions in different scenarios by using the key. Found in the code for this journal.",
-      "link": "https://github.com/CBailey589/Daily-Journal",
+      "link": [
+        "https://github.com/CBailey589/Daily-Journal"
+      ],
       "linkDescription": "GitHub repository for this Daily Journal",
       "mood": "Happy",
       "id": 8
@@ -90,8 +92,10 @@
       "date": "2019-02-06",
       "conceptsCovered": "JS Modularization With Promises",
       "textEntry": "Learned how to use .mjs files, and use return promises between functions in different files. Utilized in this journal as of 6 Feb 2019. ",
-      "link": "GitHub For This Journal",
-      "linkDescription": "https://github.com/CBailey589/Daily-Journal/pull/10",
+      "link": [
+        "https://github.com/CBailey589/Daily-Journal/pull/10"
+      ],
+      "linkDescription": "GitHub For This Journal",
       "mood": "Happy",
       "id": 9
     },
@@ -111,7 +115,9 @@
       "date": "2019-02-11",
       "conceptsCovered": "API Delete and Edit",
       "textEntry": "Learned how to Delete and Edit objects using fetch and promises. Implemented in this Journal. ",
-      "link": "https://github.com/CBailey589/Daily-Journal-With-Browserify",
+      "link": [
+        "https://github.com/CBailey589/Daily-Journal-With-Browserify"
+      ],
       "linkDescription": "GitHub for this Daily Journal",
       "mood": "Happy"
     }
