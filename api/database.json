@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "date": "2019-01-21",
+      "conceptsCovered": "JS API",
+      "textEntry": "We learned about fetching data from an API",
+      "link": [
+        "https://github.com/nashville-software-school/client-side-mastery/blob/cohort-30/book-2-the-neophyte/chapters/JSON_SERVER_API.md"
+      ],
+      "linkDescription": "Textbook 2 Chapter Building and Using an API",
+      "mood": "Happy"
+    },
+    {
+      "id": 2,
+      "date": "2019-01-22",
+      "conceptsCovered": "JS Modular Code & Fetch",
+      "textEntry": "Figured out how to use .then() with forEach and other functions",
+      "link": [
+        "https://github.com/nashville-software-school/client-side-mastery/blob/cohort-30/book-2-the-neophyte/chapters/FETCH_INTRO.md"
+      ],
+      "linkDescription": "Textbook 2 Chapter Fetching Data",
+      "mood": "Happy"
+    },
+    {
+      "id": 3,
+      "date": "2019-01-22",
+      "conceptsCovered": "CSS Hero Header",
+      "textEntry": "Figured out how to use .then() with forEach and other functions",
+      "link": [
+        "https://medium.com/@woutervanderzee/creating-a-website-hero-module-with-flexbox-and-the-vh-unit-b39113aaceb2"
+      ],
+      "linkDescription": "Article: Creating a website hero module",
+      "mood": "Happy"
+    },
+    {
+      "id": 4,
+      "date": "2019-01-22",
+      "conceptsCovered": "JS removeEventListener",
+      "textEntry": "Figured out how to use .then() with forEach and other functions",
+      "link": [
+        "https://dev.to/em4nl/function-identity-in-javascript-or-how-to-remove-event-listeners-properly-1ll3"
+      ],
+      "linkDescription": "Article: Function identity in JavaScript",
+      "mood": "Happy"
+    },
+    {
+      "id": 5,
+      "date": "2019-01-23",
+      "conceptsCovered": "JS Event Bubbling",
+      "textEntry": "Figured out how to apply event listeners to multiple objects simultaneously by using parent elements.",
+      "link": [
+        "https://github.com/nashville-software-school/client-side-mastery/blob/cohort-30/book-2-the-neophyte/chapters/JS_EVENTS.md"
+      ],
+      "linkDescription": "Textbook 2 Chapter Handling Browser Events in JavaScript",
+      "mood": "Happy"
+    },
+    {
+      "id": 6,
+      "date": "2019-01-29",
+      "conceptsCovered": "Grunt Automation",
+      "textEntry": "Learned how to automate things with Grunt. Can now use Grunt to start JSON server, HTTP server, check JS syntax, etc.",
+      "link": [
+        "https://github.com/nashville-software-school/client-side-mastery/blob/cohort-30/book-2-the-neophyte/chapters/GRUNT_INTRO.md"
+      ],
+      "linkDescription": "Textbook 2 Chapter Automation With Grunt",
+      "mood": "Happy"
+    },
+    {
+      "id": 7,
+      "date": "2019-01-30",
+      "conceptsCovered": "JS Import/Export",
+      "textEntry": "Learned how to modularize code with .mjs files, and combine them together with import and export",
+      "link": [
+        "https://github.com/nashville-software-school/client-side-mastery/blob/cohort-30/book-3-the-initiate/chapters/USER_INPUT.md"
+      ],
+      "linkDescription": "Textbook 3 Collecting User Input",
+      "mood": "Happy"
+    },
+    {
+      "date": "2019-02-01",
+      "conceptsCovered": "JS Using Object Keys As Function References",
+      "textEntry": "Learned how to set up an object with functions as values, and then execute those functions in different scenarios by using the key. Found in the code for this journal.",
+      "link": "https://github.com/CBailey589/Daily-Journal",
+      "linkDescription": "GitHub repository for this Daily Journal",
+      "mood": "Happy",
+      "id": 8
+    },
+    {
+      "date": "2019-02-06",
+      "conceptsCovered": "JS Modularization With Promises",
+      "textEntry": "Learned how to use .mjs files, and use return promises between functions in different files. Utilized in this journal as of 6 Feb 2019. ",
+      "link": "GitHub For This Journal",
+      "linkDescription": "https://github.com/CBailey589/Daily-Journal/pull/10",
+      "mood": "Happy",
+      "id": 9
+    },
+    {
+      "date": "2019-02-07",
+      "conceptsCovered": "Browserify",
+      "textEntry": "Learned how to use Browserify and created a GitHub boilerplate Browserify repository to use for future projects. Have to remember to install the node packages after I clone the repo for a new project. ",
+      "link": "https://github.com/CBailey589/Browserify-Boilerplate",
+      "linkDescription": "Boilerplate Browserify Repository",
+      "mood": "Fine",
+      "id": 10
+    }
+  ]
+}

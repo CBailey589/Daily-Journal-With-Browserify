@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+}
+
+html {
+    /* border: 2px solid purple; */
+    display: flex;
+    /* max-width: 700px; */
+    background-color: #f0f0f0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-width: 900px;
+}
+body {
+    /* border: 2px dotted green; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    min-width: 900px;
+}
+
+.hero {
+    height: 40vh;
+    background-image: url(../images/journalPhoto.jpeg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.hero header {
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.hero header h1 {
+    font-size: 2em;
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+    color: #16375f;
+    width: 70%;
+}
+
+input {
+    display: flex;
+    background-color: #16375f;
+    color:#f0f0f0;
+    font-size: 1.2em;
+}
+
+textarea {
+    background-color: #16375f;
+    color:#f0f0f0;
+    font-size: 1.2em;
+}
+
+select {
+    background-color: #16375f;
+    color:#f0f0f0;
+    font-size: 1.2em;
+}
+
+#helpfulLinkTitle, #helpfulLink {
+    width: 100%;
+}
+
+#submitButton {
+    margin: 20px 0px;
+    width: 30%;
+    background-color: #16375f;
+    color:#f0f0f0;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#moodFilter {
+    border: 1px solid black;
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#moodRadioSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#moodRadio {
+    /* border: 1px solid green; */
+    display: flex;
+    width: 15%;
+    justify-content: center;
+}
+
+#searchEntries {
+    margin: 0px 0px 20px 0px;
+}
+
+#pastEntries {
+    /* border: 2px dotted red; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly
+}
+
+.pastEntry {
+    /* border: 1px dotted green; */
+    border: 1px solid #607c9e;
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: auto;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.pastEntryTitle {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    margin: 10px 5px 20px 5px;
+    color: #607c9e;
+    justify-self: flex-start;
+    height: 30%;
+}
+
+.pastEntryText {
+    /* border: 1px solid red; */
+    display: flex;
+    font-size: 1.4em;
+    margin: 0px 5px 20px 5px;
+    height: 50%;
+    overflow-y: scroll
+}
+
+.entryBottomBar {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.entryBottomBar button {
+    background-color: #16375f;
+    color:#f0f0f0;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.dateAndMood {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin: 0px 5px 10px 0px;
+    height: 100%;
+    width:33%;
+    color: #607c9e;
+    align-items: flex-end
+}
+
+.dateAndMood div {
+    /* border: 1px solid purple; */
+    display: flex;
+    height: 50%;
+}
